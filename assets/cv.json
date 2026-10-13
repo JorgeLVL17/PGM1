@@ -2,10 +2,10 @@
   "nombre": "Jorge Leandro Valencia Linares",
   "titulo": "Estudiante de Ingeniería de Sistemas",
   "rol": "Desarrollador Web y Móvil",
-  "email": "jorge.valencia@ejemplo.com",
+  "email": "jorge.valencia.dev@gmail.com",
   "ubicacion": "Bolivia",
   "resumen": "Estudiante apasionado por construir soluciones digitales accesibles y escalables. Experiencia en desarrollo web con Angular y en aplicaciones móviles. Busco oportunidades para aplicar buenas prácticas de arquitectura y diseño responsive.",
-  "fotoPerfil": "assets/images/profile.svg",
+  "fotoPerfil": "PGM1/src/assets/images/gallery-1.jpg",
   "habilidades": [
     "Angular",
     "TypeScript",
@@ -32,34 +32,34 @@
     }
   ],
   "redes": [
-    { "nombre": "GitHub", "url": "https://github.com/tu-usuario", "icono": "github" },
-    { "nombre": "LinkedIn", "url": "https://linkedin.com/in/tu-perfil", "icono": "linkedin" },
-    { "nombre": "Correo", "url": "mailto:jorge.valencia@ejemplo.com", "icono": "envelope" }
+    { "nombre": "GitHub", "url": "https://github.com/JorgeLVL17", "icono": "github" },
+    { "nombre": "LinkedIn", "url": "https://linkedin.com/in/Jorge-Valencia", "icono": "linkedin" },
+    { "nombre": "Correo", "url": "mailto:jorge.valencia.dev@gmail.com", "icono": "envelope" }
   ],
   "galeria": [
     {
       "id": 1,
       "titulo": "Foto personal 1",
-      "descripcion": "Reemplaza este archivo por tu foto en assets/images/gallery-1.jpg",
-      "url": "assets/images/gallery-1.svg"
+      "descripcion": "Trabajando en un proyecto",
+      "url": "PGM1/src/assets/images/gallery-1.jpg"
     },
     {
       "id": 2,
       "titulo": "Foto personal 2",
-      "descripcion": "Reemplaza por gallery-2.jpg",
-      "url": "assets/images/gallery-2.svg"
+      "descripcion": "Creativo",
+      "url": "PGM1/src/assets/images/gallery-2.jpg"
     },
     {
       "id": 3,
       "titulo": "Foto personal 3",
-      "descripcion": "Reemplaza por gallery-3.jpg",
-      "url": "assets/images/gallery-3.svg"
+      "descripcion": "Rolling rolling rolling",
+      "url": "PGM1/src/assets/images/gallery-3.jpg"
     },
     {
       "id": 4,
       "titulo": "Foto personal 4",
-      "descripcion": "Reemplaza por gallery-4.jpg",
-      "url": "assets/images/gallery-4.svg"
+      "descripcion": "Creativo",
+      "url": "PGM1/src/assets/images/gallery-4.jpg"
     }
   ]
 }
