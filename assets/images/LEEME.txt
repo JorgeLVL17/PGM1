@@ -1,0 +1,7 @@
+Reemplaza los archivos .svg por tus fotos reales manteniendo estos nombres (o actualiza las rutas en cv.json):
+
+- profile.jpg  (foto principal del perfil)
+- gallery-1.jpg
+- gallery-2.jpg
+- gallery-3.jpg
+- gallery-4.jpg
