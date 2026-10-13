@@ -5,7 +5,7 @@
   "email": "jorge.valencia.dev@gmail.com",
   "ubicacion": "Bolivia",
   "resumen": "Estudiante apasionado por construir soluciones digitales accesibles y escalables. Experiencia en desarrollo web con Angular y en aplicaciones móviles. Busco oportunidades para aplicar buenas prácticas de arquitectura y diseño responsive.",
-  "fotoPerfil": "/PGM1/src/assets/images/gallery-1.jpg",
+  "fotoPerfil": "/src/assets/images/gallery-1.jpg",
   "habilidades": [
     "Angular",
     "TypeScript",
@@ -41,25 +41,25 @@
       "id": 1,
       "titulo": "Foto personal 1",
       "descripcion": "Trabajando en un proyecto",
-      "url": "/PGM1/src/assets/images/gallery-1.jpg"
+      "url": "/src/assets/images/gallery-1.jpg"
     },
     {
       "id": 2,
       "titulo": "Foto personal 2",
       "descripcion": "Creativo",
-      "url": "/PGM1/src/assets/images/gallery-2.jpg"
+      "url": "/src/assets/images/gallery-2.jpg"
     },
     {
       "id": 3,
       "titulo": "Foto personal 3",
       "descripcion": "Rolling rolling rolling",
-      "url": "/PGM1/src/assets/images/gallery-3.jpg"
+      "url": "/src/assets/images/gallery-3.jpg"
     },
     {
       "id": 4,
       "titulo": "Foto personal 4",
       "descripcion": "Creativo",
-      "url": "/PGM1/src/assets/images/gallery-4.jpg"
+      "url": "/src/assets/images/gallery-4.jpg"
     }
   ]
 }
