@@ -1,0 +1,23 @@
+<aside class="sidebar-nav h-100 d-flex flex-column">
+  <div class="sidebar-brand px-3 py-4 border-bottom border-secondary border-opacity-25">
+    <p class="text-uppercase text-muted small mb-1">Portafolio</p>
+    <h2 class="h5 mb-0 text-white">{{ nombre }}</h2>
+  </div>
+
+  <nav class="nav flex-column p-3 gap-1 flex-grow-1" aria-label="Secciones del portafolio">
+    @for (item of items; track item.id) {
+      <a
+        class="nav-link sidebar-link"
+        [class.active]="activeId === item.id"
+        [href]="'#' + item.id"
+        (click)="onNavigate(item.id, $event)"
+      >
+        {{ item.label }}
+      </a>
+    }
+  </nav>
+
+  <div class="px-3 py-3 small text-muted border-top border-secondary border-opacity-25">
+    Evaluación H3 · Angular + Bootstrap
+  </div>
+</aside>

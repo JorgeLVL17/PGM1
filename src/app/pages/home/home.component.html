@@ -1,0 +1,76 @@
+@if (cv$ | async; as cv) {
+  <div class="portfolio-shell min-vh-100">
+    <!-- Barra superior móvil -->
+    <header class="d-lg-none sticky-top mobile-topbar bg-dark text-white shadow-sm">
+      <div class="d-flex align-items-center justify-content-between px-3 py-2">
+        <span class="fw-semibold text-truncate">{{ cv.nombre }}</span>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-sm"
+          (click)="toggleMobileNav()"
+          [attr.aria-expanded]="mobileNavOpen()"
+          aria-controls="mobileSidebar"
+        >
+          Menú
+        </button>
+      </div>
+      @if (mobileNavOpen()) {
+        <div id="mobileSidebar" class="mobile-drawer border-top border-secondary">
+          <app-sidebar-nav
+            [nombre]="cv.nombre"
+            [items]="navItems"
+            [activeId]="activeSection()"
+            (navigate)="onNavigate($event)"
+          />
+        </div>
+      }
+    </header>
+
+    <div class="container-fluid g-0">
+      <div class="row g-0">
+        <!-- Sidebar escritorio -->
+        <div class="col-lg-3 d-none d-lg-block sidebar-col position-sticky top-0 vh-100 overflow-auto">
+          <app-sidebar-nav
+            [nombre]="cv.nombre"
+            [items]="navItems"
+            [activeId]="activeSection()"
+            (navigate)="onNavigate($event)"
+          />
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="col-lg-9 main-content">
+          <section id="inicio" class="hero-section scroll-mt">
+            <div class="row align-items-center g-4">
+              <div class="col-md-5 col-lg-4 text-center text-md-start">
+                <div class="profile-frame mx-auto mx-md-0">
+                  <img [src]="cv.fotoPerfil" [alt]="cv.nombre" class="profile-photo" />
+                </div>
+              </div>
+              <div class="col-md-7 col-lg-8">
+                <p class="text-primary fw-semibold mb-2">{{ cv.rol }}</p>
+                <h1 class="display-6 fw-bold mb-3">{{ cv.nombre }}</h1>
+                <p class="fs-5 text-muted mb-4">{{ cv.titulo }}</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <a class="btn btn-primary btn-lg" href="#sobre-mi" (click)="onNavigate('sobre-mi'); $event.preventDefault()">
+                    Ver perfil
+                  </a>
+                  <a class="btn btn-outline-secondary btn-lg" href="#galeria" (click)="onNavigate('galeria'); $event.preventDefault()">
+                    Galería
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <app-cv-panel />
+          <app-photo-gallery />
+
+          <footer class="py-4 text-center text-muted small border-top">
+            © {{ cv.nombre }} — Portafolio personal (Angular · Bootstrap · JSON)
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+}

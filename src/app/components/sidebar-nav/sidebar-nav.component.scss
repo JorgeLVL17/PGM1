@@ -1,0 +1,22 @@
+.sidebar-nav {
+  background: linear-gradient(180deg, #1a1d29 0%, #12141c 100%);
+  min-height: 100%;
+}
+
+.sidebar-link {
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &.active {
+    color: #fff;
+    background-color: var(--bs-primary);
+  }
+}

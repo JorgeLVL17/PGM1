@@ -1,0 +1,65 @@
+{
+  "nombre": "Jorge Leandro Valencia Linares",
+  "titulo": "Estudiante de Ingeniería de Sistemas",
+  "rol": "Desarrollador Web y Móvil",
+  "email": "jorge.valencia.dev@gmail.com",
+  "ubicacion": "Bolivia",
+  "resumen": "Estudiante apasionado por construir soluciones digitales accesibles y escalables. Experiencia en desarrollo web con Angular y en aplicaciones móviles. Busco oportunidades para aplicar buenas prácticas de arquitectura y diseño responsive.",
+  "fotoPerfil": "assets/images/gallery-1.jpg",
+  "habilidades": [
+    "Angular",
+    "TypeScript",
+    "HTML5 / CSS3",
+    "Bootstrap",
+    "PHP (MVC)",
+    "Flutter / Dart",
+    "Git & GitHub",
+    "JSON / APIs REST"
+  ],
+  "experiencia": [
+    {
+      "puesto": "Desarrollador web (prácticas / proyectos académicos)",
+      "empresa": "Proyectos UNIFRANZ / personales",
+      "periodo": "2024 — presente",
+      "descripcion": "Implementación de interfaces responsive, consumo de datos JSON y despliegue en GitHub Pages."
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Franz Tamayo (UNIFRANZ)",
+      "periodo": "En curso"
+    }
+  ],
+  "redes": [
+    { "nombre": "GitHub", "url": "https://github.com/JorgeLVL17", "icono": "github" },
+    { "nombre": "LinkedIn", "url": "https://linkedin.com/in/Jorge-Valencia", "icono": "linkedin" },
+    { "nombre": "Correo", "url": "mailto:jorge.valencia.dev@gmail.com", "icono": "envelope" }
+  ],
+  "galeria": [
+    {
+      "id": 1,
+      "titulo": "Foto personal 1",
+      "descripcion": "Trabajando en un proyecto",
+      "url": "assets/images/gallery-1.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Foto personal 2",
+      "descripcion": "Creativo",
+      "url": "assets/images/gallery-2.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Foto personal 3",
+      "descripcion": "Rolling rolling rolling",
+      "url": "assets/images/gallery-3.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Foto personal 4",
+      "descripcion": "Creativo",
+      "url": "assets/images/gallery-4.jpg"
+    }
+  ]
+}
